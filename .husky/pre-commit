@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+#. "$(dirname "$0")/h"
+
+echo "Applying fixes and analyzing..."
+dart fix --apply
+dart format .
+echo "Running Flutter analyze..."
+flutter analyze
+if [ $? -ne 0 ]; then
+  echo "❌ Lint errors detected. Commit aborted."
+  exit 1
+fi
