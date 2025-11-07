@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "883902388295",
+    "project_id": "udsp38-infos-mobile-app",
+    "storage_bucket": "udsp38-infos-mobile-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883902388295:android:064dfb42c0eae6b4103962",
+        "android_client_info": {
+          "package_name": "fr.udsp38.news"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8NYIS2EvsfCwKAZqaBSuAM-ceNp0rIUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
