@@ -1,8 +1,6 @@
 import 'package:firebase_messaging/firebase_messaging.dart';
-<<<<<<< HEAD
 import '../models/notif.dart';
-=======
->>>>>>> 754a7dd (mise en place de larchi mvc)
+
 
 class FirebaseService {
     final _messaging = FirebaseMessaging.instance; 
