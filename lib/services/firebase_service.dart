@@ -1,17 +1,12 @@
 import 'package:firebase_messaging/firebase_messaging.dart';
 import '../models/notif.dart';
 
-
 class FirebaseService {
-    final _messaging = FirebaseMessaging.instance; 
+    final _messaging = FirebaseMessaging.instance;
 
     Future<void> init() async {
         await _messaging.requestPermission();
-
-        FirebaseMessaging.onMessage.listen((message) {
-            print("Message reçu : ${message.notification?.title}");
-        }); 
-    } 
+    }
 
     Notif? convertToNotif(RemoteMessage message) {
         return Notif(
